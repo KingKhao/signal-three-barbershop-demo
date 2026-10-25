@@ -1,0 +1,12 @@
+.git/
+.gitignore
+.impeccable/
+.taste-skill/
+.playwright-cli/
+*.md
+*.py
+*.zip
+*.log
+.env*
+assets/*.json
+node_modules/

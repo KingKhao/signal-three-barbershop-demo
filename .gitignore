@@ -1,0 +1,8 @@
+.taste-skill/
+.impeccable/review/
+.playwright-cli/
+.vercel/
+.env*
+*.log
+*.zip
+node_modules/

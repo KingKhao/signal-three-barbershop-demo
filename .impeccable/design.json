@@ -1,0 +1,308 @@
+{
+  "title": "Design System: Signal Three",
+  "generatedAt": "2026-10-25T06:50:48.4752121Z",
+  "components": [
+    {
+      "html": "<button class=\"ds-primary\">Join the Line <svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-height:56px;padding:17px 24px;border:0;border-radius:0;background:var(--accent,#d8ff3e);color:var(--dark-ink,#171918);font:700 15px/1.35 Arial,Helvetica,sans-serif;transition:transform 160ms cubic-bezier(.23,1,.32,1),background 160ms;cursor:pointer}.ds-primary:hover{background:var(--paper,#f0f0e8);transform:translateY(-2px)}.ds-primary:focus-visible{outline:3px solid var(--accent,#d8ff3e);outline-offset:5px}.ds-primary:active{transform:translateY(2px)}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}",
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Main queue and booking action.",
+      "refersTo": "button-primary"
+    },
+    {
+      "html": "<button class=\"ds-secondary\">Book Ahead</button>",
+      "css": ".ds-secondary{padding:17px 24px;min-height:56px;border:0;border-radius:0;box-shadow:inset 0 0 0 1px var(--line,#495046);background:transparent;color:var(--ink,#f0f0e8);font:700 15px/1.35 Arial,Helvetica,sans-serif;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1),background 160ms}.ds-secondary:hover{background:var(--ink,#f0f0e8);color:var(--dark-ink,#171918);transform:translateY(-2px)}.ds-secondary:focus-visible{outline:3px solid var(--accent,#d8ff3e);outline-offset:5px}.ds-secondary:active{transform:translateY(2px)}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}",
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Supporting action on a dark surface.",
+      "refersTo": "button-secondary"
+    },
+    {
+      "html": "<label class=\"ds-field\">Name<input placeholder=\"A fictional name\" autocomplete=\"off\"></label>",
+      "css": ".ds-field{display:block;margin:18px 0;color:var(--dark-ink,#171918);font:700 14px/1.55 Arial,Helvetica,sans-serif}.ds-field input{display:block;width:100%;margin-top:7px;padding:13px 12px;border:1px solid #88947d;border-radius:0;background:#fffef8;color:var(--dark-ink,#171918);font:16px/1.55 Arial,Helvetica,sans-serif}.ds-field input::placeholder{color:#5b6551}.ds-field input:hover{border-color:#88947d}.ds-field input:focus-visible{outline:3px solid var(--dark-ink,#171918);outline-offset:5px}",
+      "name": "Text Field",
+      "kind": "input",
+      "description": "Explicitly labeled fictional contact field.",
+      "refersTo": "input"
+    },
+    {
+      "description": "Plain text navigation on charcoal.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Sample navigation\"><a href=\"#services\">The Cuts</a><a href=\"#barbers\">The Barbers</a><a href=\"#shop\">The Shop</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:27px;background:var(--bg,#171918);color:var(--ink,#f0f0e8)}.ds-nav a{padding-block:12px;text-decoration:none;color:inherit;font:14px/1.55 Arial,Helvetica,sans-serif}.ds-nav a:hover{color:var(--accent,#d8ff3e)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#d8ff3e);outline-offset:5px}",
+      "name": "Desktop Navigation",
+      "kind": "nav"
+    },
+    {
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">All cuts</button>",
+      "css": ".ds-filter{padding:12px 21px;min-height:48px;border:1px solid var(--accent,#d8ff3e);border-radius:0;background:var(--accent,#d8ff3e);color:var(--dark-ink,#171918);font:14px/1.55 Arial,Helvetica,sans-serif;cursor:pointer}.ds-filter:hover{background:var(--accent,#d8ff3e)}.ds-filter:focus-visible{outline:3px solid var(--accent,#d8ff3e);outline-offset:5px}",
+      "name": "Selected Gallery Filter",
+      "kind": "chip",
+      "description": "Square pressed filter.",
+      "refersTo": "filter-selected"
+    },
+    {
+      "html": "<section class=\"ds-board\"><h2>THE CHAIR BOARD</h2><div class=\"ds-row\"><span>01 · Frankie</span><span>Ready</span><strong>NOW</strong></div><p>Simulated wait · fictional shop</p></section>",
+      "css": ".ds-board{padding:25px 28px 20px;background:var(--panel,#222623);color:var(--ink,#f0f0e8);font:15px/1.55 Arial,Helvetica,sans-serif;font-variant-numeric:tabular-nums}.ds-board h2{margin:0 0 28px;font:700 32px/.97 var(--display,\"Barlow Condensed\",\"Arial Narrow\",sans-serif);letter-spacing:-.025em}.ds-row{display:grid;grid-template-columns:1.05fr 1.1fr .6fr;align-items:center;gap:12px;padding:17px 0;border-top:1px solid var(--line,#495046)}.ds-row strong{font:700 29px/1 var(--display,\"Barlow Condensed\",\"Arial Narrow\",sans-serif);text-align:right;color:var(--accent,#d8ff3e)}.ds-row span:nth-child(2){color:var(--accent,#d8ff3e)}.ds-board p{margin:14px 0 0;font-size:13px;color:var(--muted,#bcc4b8)}",
+      "name": "Chair Board",
+      "kind": "card",
+      "description": "Flat, ruled chair status artifact.",
+      "refersTo": "chair-board"
+    },
+    {
+      "html": "<div class=\"ds-ticket\"><div>DEMO APPOINTMENT · SIGNAL THREE</div><strong>BOOKED*</strong><p>Fictional confirmation only. Nothing saved or sent.</p></div>",
+      "css": ".ds-ticket{padding:25px;background:var(--dark-ink,#171918);color:var(--ink,#f0f0e8);font:16px/1.55 Arial,Helvetica,sans-serif}.ds-ticket div{font-size:13px;color:var(--muted,#bcc4b8)}.ds-ticket strong{display:block;color:var(--accent,#d8ff3e);font:700 90px/1.2 var(--display,\"Barlow Condensed\",\"Arial Narrow\",sans-serif);letter-spacing:-.025em}.ds-ticket p{margin:15px 0 0}",
+      "name": "Confirmation Ticket",
+      "kind": "custom",
+      "description": "Reversed paper artifact for fictional outcomes.",
+      "refersTo": "confirmation-ticket"
+    }
+  ],
+  "narrative": {
+    "dos": [
+      "**Do** preserve the charcoal, cream and chartreuse hierarchy.",
+      "**Do** keep queue rows readable and primary actions ahead of imagery on phones.",
+      "**Do** use ticket material and inline SVG icons where those patterns recur.",
+      "**Do** keep fictional-demo labels and visible focus states alongside interactions."
+    ],
+    "keyCharacteristics": [
+      "Monumental condensed type and tabular queue numerals.",
+      "Flat, square surfaces with strong tonal separation.",
+      "Physical ticket details and quick, controllable motion."
+    ],
+    "overview": "The implemented world is direct, compact and mechanical: broad condensed lettering, numbered chair rows, rectangular photographs and paper tickets. Charcoal and cream establish the material; chartreuse marks action and readiness. This code-first record captures the finished implementation, not a pre-build approval.\n\nQuick state changes support queue and booking previews. Content stays visible before entrance effects run. The fictional identity deliberately differs from Sunday House's soft salon direction.",
+    "northStar": "The Three-Chair Dispatch Board",
+    "donts": [
+      "**Don't** introduce soft salon arches, serif display type or ornamental barber clipart.",
+      "**Don't** replace raster product photography with CSS object stand-ins.",
+      "**Don't** hide necessary content behind slow motion or freeze task dialogues when decoration is paused."
+    ],
+    "rules": [
+      {
+        "body": "Use chartreuse for actions and meaningful active states; preserve clear dark text on chartreuse.",
+        "section": "colors",
+        "name": "The Readiness Rule"
+      },
+      {
+        "body": "Keep condensed type for identity, headings and numerals; use the body face for instructions and form controls.",
+        "section": "typography",
+        "name": "The Two-Voice Rule"
+      }
+    ]
+  },
+  "extensions": {
+    "shadows": [
+      {
+        "purpose": "Outlined controls on dark surfaces.",
+        "value": "inset 0 0 0 1px var(--line)",
+        "name": "secondary-outline"
+      },
+      {
+        "purpose": "Separate the fixed phone action from page content.",
+        "value": "0 -5px 25px #0002",
+        "name": "phone-queue-bar"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1150px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "360px"
+      }
+    ],
+    "typographyMeta": {
+      "label": {
+        "displayName": "Functional small text",
+        "purpose": "Queue labels, disclaimers and metadata."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Default subordinate headings; component sizes vary."
+      },
+      "display": {
+        "displayName": "Monumental display",
+        "purpose": "Identity wordmark; phone size is 19.3vw."
+      },
+      "headline": {
+        "displayName": "Section heading",
+        "purpose": "Major section titles; phone size is 48px."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Instructions, descriptions and controls."
+      }
+    },
+    "colorMeta": {
+      "summary": {
+        "tonalRamp": [
+          "oklch(15% 0.025 125)",
+          "oklch(27% 0.025 125)",
+          "oklch(39% 0.025 125)",
+          "oklch(51% 0.025 125)",
+          "oklch(63% 0.025 125)",
+          "oklch(75% 0.025 125)",
+          "oklch(87% 0.025 125)",
+          "oklch(95% 0.025 125)"
+        ],
+        "displayName": "Summary",
+        "role": "neutral"
+      },
+      "panel": {
+        "tonalRamp": [
+          "oklch(15% 0.01 145)",
+          "oklch(27% 0.01 145)",
+          "oklch(39% 0.01 145)",
+          "oklch(51% 0.01 145)",
+          "oklch(63% 0.01 145)",
+          "oklch(75% 0.01 145)",
+          "oklch(87% 0.01 145)",
+          "oklch(95% 0.01 145)"
+        ],
+        "displayName": "Panel",
+        "role": "neutral"
+      },
+      "charcoal": {
+        "tonalRamp": [
+          "oklch(15% 0.01 145)",
+          "oklch(27% 0.01 145)",
+          "oklch(39% 0.01 145)",
+          "oklch(51% 0.01 145)",
+          "oklch(63% 0.01 145)",
+          "oklch(75% 0.01 145)",
+          "oklch(87% 0.01 145)",
+          "oklch(95% 0.01 145)"
+        ],
+        "displayName": "Charcoal",
+        "role": "neutral"
+      },
+      "cream": {
+        "tonalRamp": [
+          "oklch(15% 0.01 110)",
+          "oklch(27% 0.01 110)",
+          "oklch(39% 0.01 110)",
+          "oklch(51% 0.01 110)",
+          "oklch(63% 0.01 110)",
+          "oklch(75% 0.01 110)",
+          "oklch(87% 0.01 110)",
+          "oklch(95% 0.01 110)"
+        ],
+        "displayName": "Cream",
+        "role": "neutral"
+      },
+      "muted": {
+        "tonalRamp": [
+          "oklch(15% 0.02 130)",
+          "oklch(27% 0.02 130)",
+          "oklch(39% 0.02 130)",
+          "oklch(51% 0.02 130)",
+          "oklch(63% 0.02 130)",
+          "oklch(75% 0.02 130)",
+          "oklch(87% 0.02 130)",
+          "oklch(95% 0.02 130)"
+        ],
+        "displayName": "Muted",
+        "role": "neutral"
+      },
+      "line": {
+        "tonalRamp": [
+          "oklch(15% 0.02 130)",
+          "oklch(27% 0.02 130)",
+          "oklch(39% 0.02 130)",
+          "oklch(51% 0.02 130)",
+          "oklch(63% 0.02 130)",
+          "oklch(75% 0.02 130)",
+          "oklch(87% 0.02 130)",
+          "oklch(95% 0.02 130)"
+        ],
+        "displayName": "Line",
+        "role": "neutral"
+      },
+      "field": {
+        "tonalRamp": [
+          "oklch(15% 0.015 100)",
+          "oklch(27% 0.015 100)",
+          "oklch(39% 0.015 100)",
+          "oklch(51% 0.015 100)",
+          "oklch(63% 0.015 100)",
+          "oklch(75% 0.015 100)",
+          "oklch(87% 0.015 100)",
+          "oklch(95% 0.015 100)"
+        ],
+        "displayName": "Field",
+        "role": "neutral"
+      },
+      "paper-muted": {
+        "tonalRamp": [
+          "oklch(15% 0.025 130)",
+          "oklch(27% 0.025 130)",
+          "oklch(39% 0.025 130)",
+          "oklch(51% 0.025 130)",
+          "oklch(63% 0.025 130)",
+          "oklch(75% 0.025 130)",
+          "oklch(87% 0.025 130)",
+          "oklch(95% 0.025 130)"
+        ],
+        "displayName": "Paper Muted",
+        "role": "neutral"
+      },
+      "chartreuse": {
+        "tonalRamp": [
+          "oklch(15% 0.2 115)",
+          "oklch(27% 0.2 115)",
+          "oklch(39% 0.2 115)",
+          "oklch(51% 0.2 115)",
+          "oklch(63% 0.2 115)",
+          "oklch(75% 0.2 115)",
+          "oklch(87% 0.2 115)",
+          "oklch(95% 0.2 115)"
+        ],
+        "displayName": "Chartreuse",
+        "role": "primary"
+      }
+    },
+    "motion": [
+      {
+        "purpose": "State and finite entrance easing.",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "name": "ease-out"
+      },
+      {
+        "purpose": "Control transitions.",
+        "value": "160ms",
+        "name": "fast"
+      },
+      {
+        "purpose": "Image hover and confirmation motion.",
+        "value": "240ms",
+        "name": "move"
+      },
+      {
+        "purpose": "Queue row feedback.",
+        "value": "220ms",
+        "name": "board-update"
+      },
+      {
+        "purpose": "Finite visible-content entrance; 65ms stagger.",
+        "value": "280ms",
+        "name": "entrance"
+      },
+      {
+        "purpose": "Pausable decorative strip.",
+        "value": "26s linear infinite",
+        "name": "ticker"
+      }
+    ]
+  },
+  "schemaVersion": 2
+}

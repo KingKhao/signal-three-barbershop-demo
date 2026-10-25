@@ -1,0 +1,9 @@
+# Homepage
+Mode: Persuade, with Operate-style queue and booking fragments. Fictional demo; no proof claims.
+## Direction contract
+THESIS: Three chairs become a shop dispatch board: see the wait, take a ticket, choose a cut. Refuse the conventional photographic salon hero and generic service-card scaffold.
+OWN-WORLD: Charcoal #171918, paper #f0f0e8, chartreuse #d8ff3e. Condensed Barlow lettering, square photos, perforated tickets, numeric queue rows and direct controls. No glow, gradients, arches or ornamental barber clipart.
+STORY: A visitor sees a clearly simulated wait, joins a fictional line or books ahead, explores transparent prices and a barber, then tries memberships, loyalty and retail without any data leaving the page.
+FIRST VIEWPORT: Monumental SIGNAL THREE wordmark, with an action photograph beside a broad three-row chair board. Join the Line dominates; Book Ahead is secondary. Phone prioritizes the board and ticket action ahead of imagery. Signature move is a quick board-to-ticket advance, never a slow reveal that hides information.
+FORM: User-pinned three-chair dispatch board; Taste composition Name as a monument. Corroborated Impeccable reference seed:870266b6178ca576, source api, recorded during finish correction rather than claimed as a pre-build decision. The user explicitly fixes the queue-first structure and bold charcoal/cream accent world; the roll's own rule says a user- or brief-pinned decision beats the roll. No invented user waiver or retrospective claim of a three-option approval. User chose direct coding from references. Preserve that constrained direction rather than reopen an unrelated visual tournament.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
