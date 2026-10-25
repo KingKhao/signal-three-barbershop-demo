@@ -2,6 +2,12 @@
 
 Created October 25, 2026 for Clinch Valley Digital. Separate from Sunday House and all production business websites.
 
+Published October 25, 2026:
+- Live: https://signal-three-barbershop-demo.vercel.app/
+- Private GitHub: https://github.com/KingKhao/signal-three-barbershop-demo
+- Vercel project: wkb-projects/signal-three-barbershop-demo; connected to GitHub main for deployments.
+- Static hosting only; no backend, payment, SMS or API credentials. Search indexing disabled. Development notes and prompt sidecars excluded from hosting.
+
 ## Preview in five lines
 1. Open `Signal-Three.html` in a current browser.
 2. Stay online for the Unsplash photos and optional Google Font.
